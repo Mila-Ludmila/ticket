@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(255, 249, 224);
+}
+h1, h2{
+  margin-top: 20px;
+  text-align: center;
+}
+label{
+  margin-left: 15px;
+  font-size: 20px;
+}
+select{
+  margin-top: 20px;
+  padding: 5px;
+  margin-left: 10px;
+  width: 150px;
+}
+/* select > option{
+margin-left: 5px;
+} */
+input[type='date'],
+input[type='number']{
+  padding: 5px;
+  font-size: 20px;
+}
+.free_seats{
+  padding: 5px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+#seatSelection{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+}
+.button_num{
+  height: 53px;
+  width: 53px;
+  padding: 2px;
+  margin: 3px;
+  font-size: 16px;
+}
+.button_num:hover{
+  font-size: 18px;
+  font-weight: bold;
+}
+#bookedTickets > li{
+  list-style: none;
+  margin-left: 15px;
+  font-size: 20px;
+}
+#totalCost{
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}

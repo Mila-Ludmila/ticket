@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>TICKET BOOKED</title>
+</head>
+<body>
+
+
+  <h1>Бронювання квитків</h1>
+
+    <h2>Оберіть напрямок і дату</h2>
+    <label for="direction">Напрямок:</label>
+    <select id="direction">
+        <option value="north">Північ</option>
+        <option value="south">Південь</option>
+    </select>
+
+    <label for="date">Дата:</label>
+    <input type="date" id="date">
+
+    <h2>Вартість квитків</h2>
+    <label for="ticketPrice">Вартість квитка:</label>
+    <input type="number" id="ticketPrice" min="0" step="150">
+    
+    <button class="free_seats" onclick="showFreeSeats()">Показати вільні місця</button>
+    <h2>Виберіть місця для бронювання:</h2>
+    <div id="seatSelection">
+        <!-- Тут буде відображено вільні місця -->
+    </div>
+
+    <h2>Заброньовані квитки:</h2>
+    <ul id="bookedTickets">
+        <!-- Тут буде відображено заброньовані квитки -->
+    </ul>
+
+    <h2>Загальна вартість квитків:</h2>
+    <p id="totalCost">Загальна вартість: 0 грн.</p>
+  
+
+  <script src="./index.js"></script>
+</body>
+</html>
