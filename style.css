@@ -40,14 +40,14 @@ input[type='number']{
   align-content: center;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   padding: 15px;
 }
 .button_num{
-  height: 53px;
-  width: 53px;
+  height: 45px;
+  width: 45px;
   padding: 2px;
-  margin: 3px;
+  margin: 2px;
   font-size: 16px;
 }
 .button_num:hover{
